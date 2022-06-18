@@ -53,8 +53,8 @@
 
             <nav id="navbar" class="navbar">
                 <ul>
-                    <li><a href="index.html">Blog</a></li>
-                    <li><a href="single-post.html">Single Post</a></li>
+                    <li><a href="/">Blog</a></li>
+                    <li><a href="/singlepost">Single Post</a></li>
                     <li class="dropdown"><a href="category.html"><span>Categories</span> <i
                                 class="bi bi-chevron-down dropdown-indicator"></i></a>
                         <ul>
