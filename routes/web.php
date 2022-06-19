@@ -26,3 +26,7 @@ use App\Http\Controllers\Backend\BlogController;
 Route::get('/',[PageController::class,"blog"]);
 Route::get('/singlepost',[PageController::class,"singlepost"]);
 Route::resource('blog',BlogController::class);
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
